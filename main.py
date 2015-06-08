@@ -66,8 +66,6 @@ def reinitialiserNiveau():#Permet de réinitialiser tout sauf l'état de la cart
 #Boucle principale:
 while end is False:
 
-    #pygame.display.set_caption("Starwalker "+str(int(1/delta)))
-
     if pygame.time.get_ticks() > 2400 and not musiquelancee: #On joue la musique 2,4 secondes après le lancement du jeu, si elle n'a pas déjà été lancée
         musique.play()
         musiquelancee = True
